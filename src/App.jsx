@@ -19,31 +19,31 @@ export default function App(){
       <Navbar />
       <main id="main">
         <Hero />
-        <section id="about" className="container-tight mx-auto px-6 py-20">
+        <section id="about" className="container-tight py-20">
           <About />
         </section>
-        <section id="works" className="container-tight mx-auto px-6 py-20">
+        <section id="works" className="container-tight py-20">
           <Portfolio />
         </section>
-        <section id="before-after" className="container-tight mx-auto px-6 py-20">
+        <section id="before-after" className="container-tight py-20">
           <BeforeAfter />
         </section>
-        <section id="services" className="container-tight mx-auto px-6 py-20">
+        <section id="services" className="container-tight py-20">
           <Services />
         </section>
-        <section id="packages" className="container-tight mx-auto px-6 py-20">
+        <section id="packages" className="container-tight py-20">
           <Packages />
         </section>
-        <section id="achievements" className="container-tight mx-auto px-6 py-20">
+        <section id="achievements" className="container-tight py-20">
           <Achievements />
         </section>
-        <section id="testimonials" className="container-tight mx-auto px-6 py-20">
+        <section id="testimonials" className="container-tight py-20">
           <Testimonials />
         </section>
-        <section id="faq" className="container-tight mx-auto px-6 py-20">
+        <section id="faq" className="container-tight py-20">
           <FAQ />
         </section>
-        <section id="branches" className="container-tight mx-auto px-6 py-20">
+        <section id="branches" className="container-tight py-20">
           <Branches />
         </section>
       </main>
