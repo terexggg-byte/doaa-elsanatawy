@@ -14,7 +14,7 @@ export default function Hero(){
   ]
 
   return (
-    <section aria-label="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden" style={{backgroundImage:"url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2000&q=80')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <section aria-label="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16 sm:pt-20" style={{backgroundImage:"url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=2000&q=80')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
       {/* Enhanced Overlay */}
       <div className="absolute inset-0 hero-overlay"></div>
       
