@@ -1,7 +1,10 @@
 import React, {useState, useRef, useEffect} from 'react'
-import {PHONE} from '../config'
+import {PHONE, SHOW_WHATSAPP} from '../config'
 
 export default function FloatingWhatsApp(){
+  // Respect global toggle: hide entire component when disabled
+  if (typeof SHOW_WHATSAPP !== 'undefined' && !SHOW_WHATSAPP) return null
+
   const [open, setOpen] = useState(false)
   const panelRef = useRef()
 
