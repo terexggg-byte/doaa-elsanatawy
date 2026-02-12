@@ -17,7 +17,7 @@ export default function App(){
   return (
     <div className="min-h-screen text-gray-900 overflow-x-hidden bg-[var(--ivory)]">
       <Navbar />
-      <main id="main">
+      <main id="main" className="pt-20">
         <Hero />
         <section id="about" className="container-tight py-20">
           <About />

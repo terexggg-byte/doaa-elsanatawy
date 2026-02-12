@@ -101,10 +101,11 @@ export default function Packages(){
     <div ref={ref} className="fade-in">
       {/* Packages Section */}
       <div>
-        <div className="text-center mb-16">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">الحزم والعروض 🎁</h2>
-        <p className="muted text-sm sm:text-lg md:text-xl max-w-2xl mx-auto px-4 sm:px-0">
-            اختاري الحزمة المناسبة لحدثك الخاص — جميع الأسعار مرنة وقابلة للتفاوض
+        <div className="text-center mb-16 sm:mb-20">
+          <div className="inline-block badge-gold mb-4">🎁 الحزم والعروض</div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">اختاري الحزمة المناسبة</h2>
+          <p className="muted text-sm sm:text-lg md:text-xl max-w-3xl mx-auto px-4 sm:px-0">
+            <span className="text-[var(--gold)] font-semibold">أسعار مرنة وقابلة للتفاوض</span> — جميع الحزم مخصصة وفقاً لاحتياجاتك والعروض محدثة باستمرار
           </p>
         </div>
 
